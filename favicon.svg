@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bg-glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#051c0f" />
+      <stop offset="100%" stop-color="#020804" />
+    </radialGradient>
+
+<!-- Neon Glow Effects -->
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+  <feGaussianBlur stdDeviation="6" result="blur1" />
+  <feGaussianBlur stdDeviation="20" result="blur2" />
+  <feGaussianBlur stdDeviation="40" result="blur3" />
+  <feMerge>
+    <feMergeNode in="blur3" />
+    <feMergeNode in="blur2" />
+    <feMergeNode in="blur1" />
+    <feMergeNode in="SourceGraphic" />
+  </feMerge>
+</filter>
+
+<!-- Subtle Inner Glow / Bloom -->
+<linearGradient id="green-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#26ff91" />
+  <stop offset="50%" stop-color="#00e676" />
+  <stop offset="100%" stop-color="#00c853" />
+</linearGradient>
+
+
+<!-- > (Greater Than Prompt) -->
+<path d="M 90 255 
+         L 170 325 
+         L 90 395" 
+      fill="none" 
+      stroke="url(#green-grad)" 
+      stroke-width="26" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" />
+
+<!-- _ (Underscore Cursor) -->
+<line x1="195" y1="410" x2="285" y2="410" 
+      stroke="url(#green-grad)" 
+      stroke-width="24" 
+      stroke-linecap="round" />
+
+<!-- H (Letter H) -->
+<!-- Left Stem -->
+<rect x="335" y="155" width="60" height="275" fill="url(#green-grad)" />
+<!-- Right Stem -->
+<rect x="525" y="155" width="60" height="275" fill="url(#green-grad)" />
+<!-- Crossbar -->
+<rect x="395" y="270" width="135" height="48" fill="url(#green-grad)" />
+
+<!-- K (Stylized Terminal Letter K) -->
+<path d="M 680 155 
+         L 865 155 
+         L 660 300 
+         L 865 430 
+         L 765 430 
+         L 660 355 
+         L 660 430 
+         L 660 155 Z" 
+      fill="url(#green-grad)" />
