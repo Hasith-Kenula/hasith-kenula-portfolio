@@ -76,9 +76,9 @@ npm run build
 
 ## 📬 Contact Me
 
-- **GitHub:** https://github.com/YOUR_GITHUB_USERNAME
-- **LinkedIn:** YOUR_LINKEDIN_URL
-- **Email:** YOUR_EMAIL_ADDRESS
+- **GitHub:** https://github.com/Hasith-Kenula
+- **LinkedIn:** www.linkedin.com/in/hasithkenula
+- **Email:** hasithkenula@gmail.com
 
 ## 📄 License
 
