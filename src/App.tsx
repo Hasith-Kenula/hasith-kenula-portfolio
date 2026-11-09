@@ -349,10 +349,10 @@ function App() {
                 Things I’ve <span>built.</span>
               </h2>
             </div>
-            <p className="section-intro">
+            {/* <p className="section-intro">
               A selection of personal and academic projects. More details and
               live links can be added as they become available.
-            </p>
+            </p> */}
           </div>
           <div className="project-grid">
             {projects.map((project) => (
