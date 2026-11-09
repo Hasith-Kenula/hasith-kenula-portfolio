@@ -395,10 +395,10 @@ function App() {
               </article>
             ))}
           </div>
-          <p className="edit-hint">
+          {/* <p className="edit-hint">
             Tip: replace the placeholder links in <code>src/App.tsx</code> with
             your actual GitHub repositories and live demos.
-          </p>
+          </p> */}
         </section>
 
         <section className="section section-muted" id="contact">
